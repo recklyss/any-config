@@ -1,0 +1,9 @@
+IdeaVIM
+Key Promoter X
+PlantUML integration
+com.dmarcotte.handlebars
+com.github.copilot
+com.intellij.lang.jsgraphql
+com.mallowigi
+fr.gabrielcolson.prisma.prisma-intellij-plugin
+izhangzhihao.rainbow.brackets

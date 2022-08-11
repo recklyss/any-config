@@ -1,0 +1,11 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+</keymap>

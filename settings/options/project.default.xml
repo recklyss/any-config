@@ -1,0 +1,47 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="CodeInsightWorkspaceSettings">
+        <option name="optimizeImportsOnTheFly" value="true" />
+      </component>
+      <component name="CompilerConfiguration">
+        <bytecodeTargetLevel target="11" />
+      </component>
+      <component name="ComposerSettings">
+        <execution />
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="localRepository" value="$USER_HOME$/tools/apache-maven-3.6.2/repo" />
+            <option name="userSettingsFile" value="$USER_HOME$/tools/apache-maven-3.6.2/conf/settings.xml" />
+          </MavenGeneralSettings>
+        </option>
+      </component>
+      <component name="ProjectViewState">
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="go.import.settings.migrated" value="true" />
+        <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>11.0.2</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

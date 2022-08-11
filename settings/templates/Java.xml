@@ -1,0 +1,9 @@
+<templateSet group="Java">
+  <template name="pfs" value="private static final String $varName$ = &quot;$var$&quot;;" description="private final String ..." toReformat="false" toShortenFQNames="true">
+    <variable name="varName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

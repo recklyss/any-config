@@ -1,0 +1,8 @@
+<templateSet group="Custom">
+  <template name="comp" value="import React from &quot;react&quot;;&#10;&#10;&#10;export const $ComponentName$ = () =&gt; {&#10;  return (&#10;    &lt;&gt;&#10;      &#10;    &lt;/&gt;&#10;  );&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="$ComponentName$" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
