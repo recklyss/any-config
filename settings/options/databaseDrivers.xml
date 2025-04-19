@@ -1,14 +1,11 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
-    <driver id="h2.unified">
-      <artifact id="H2" name="H2" use="true" version="1.4.200" />
-    </driver>
     <driver id="mysql.8">
-      <url-template name="default" template="jdbc:mysql://localhost:3306/scaffold_cloud_base?user=root&amp;password=123456" />
-      <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" version="8.0.15" />
+      <artifact />
+      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.2.0" />
     </driver>
-    <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.5" />
+    <driver id="sqlite.xerial">
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.45.1" />
     </driver>
   </component>
 </application>

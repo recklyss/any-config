@@ -1,0 +1,42 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorAddCaretPerSelectedLine" />
+  <action id="FittenCode.manuallyTriggerCompletion">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="Git.CreateNewBranch">
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="GitBranchesTreePopupTrackReposSynchronouslyAction">
+    <keyboard-shortcut first-keystroke="shift alt g" />
+  </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+  <action id="RecentFiles" />
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="hg4idea.QGotoFromPatches" />
+</keymap>

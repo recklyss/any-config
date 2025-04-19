@@ -1,0 +1,8 @@
+<application>
+  <component name="PresentationAssistantIJ">
+    <option name="horizontalAlignment" value="2" />
+    <option name="popupDuration" value="2000" />
+    <option name="popupSize" value="0" />
+    <option name="verticalAlignment" value="0" />
+  </component>
+</application>

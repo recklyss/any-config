@@ -3,6 +3,10 @@
     <option name="pluginIds">
       <list>
         <option value="com.haulmont.jpab" />
+        <option value="aws.toolkit" />
+        <option value="com.intellij.kubernetes" />
+        <option value="com.intellij.bigdatatools.rfs" />
+        <option value="com.intellij.aqua" />
       </list>
     </option>
   </component>

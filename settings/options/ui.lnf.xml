@@ -1,20 +1,5 @@
 <application>
   <component name="UISettings">
-    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
-    <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
-    <option name="CLOSE_TAB_BUTTON_ON_THE_RIGHT" value="false" />
     <option name="COLOR_BLINDNESS" value="deuteranopia" />
-    <option name="compactTreeIndents" value="true" />
-    <option name="DISABLE_MNEMONICS" value="false" />
-    <option name="DND_WITH_PRESSED_ALT_ONLY" value="true" />
-    <option name="EDITOR_TAB_LIMIT" value="5" />
-    <option name="LEFT_HORIZONTAL_SPLIT" value="true" />
-    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
-    <option name="OPEN_TABS_AT_THE_END" value="true" />
-    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
-    <option name="PRESENTATION_MODE_FONT_SIZE" value="14" />
-    <option name="SHOW_TOOL_WINDOW_NUMBERS" value="true" />
-    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
-    <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>

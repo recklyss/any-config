@@ -3,6 +3,7 @@
     <variable name="ComponentName" expression="$ComponentName$" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>

@@ -6,4 +6,15 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="tst" value="@Test&#10;void should$NAME$() {&#10;  &#10;}" description="generate test method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mark" value="// MARK - " description="add mark comments" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>

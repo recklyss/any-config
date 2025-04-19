@@ -1,0 +1,29 @@
+<application>
+  <component name="SettingsSyncSettings">
+    <option name="disabledSubcategories">
+      <map>
+        <entry key="PLUGINS">
+          <value>
+            <list>
+              <option value="IdeaVIM" />
+              <option value="VisualVMLauncher" />
+              <option value="co.fitten.fittencode-intellij-beta" />
+              <option value="com.arcticicestudio.nord.jetbrains" />
+              <option value="com.dmarcotte.handlebars" />
+              <option value="com.github.kawamataryo.copygithublink" />
+              <option value="com.intellij.mermaid" />
+              <option value="com.intellij.ml.llm" />
+              <option value="com.jetbrains.lang.ejs" />
+              <option value="com.markskelton.one-dark-theme" />
+              <option value="gherkin" />
+              <option value="mobi.hsz.idea.gitignore" />
+              <option value="org.intellij.scala" />
+              <option value="org.jetbrains.plugins.astro" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="migrationFromOldStorageChecked" value="true" />
+  </component>
+</application>

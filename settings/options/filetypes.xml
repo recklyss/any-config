@@ -1,85 +1,9 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
-      <mapping pattern="event/BreezeTriggerEvent" type="AUTO_DETECTED" />
-      <mapping pattern="Staticfile" type="AUTO_DETECTED" />
-      <mapping pattern="RecentListStub.java" type="AUTO_DETECTED" />
-      <mapping ext="dmg" type="AUTO_DETECTED" />
-      <mapping pattern="RwLogo" type="Image" />
-      <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="tenant-selection-api.md" type="Markdown" />
-      <mapping pattern="docs/ADR/adr-template-000" type="Markdown" />
-      <mapping pattern="agency_configuration_history_bq_to_sftp" type="Markdown" />
-      <mapping pattern="README.md" type="Markdown" />
-      <mapping pattern="e2e-entrypoint" type="Native" />
-      <mapping ext="mp4" type="Native" />
-      <mapping pattern=".env.test" type="PLAIN_TEXT" />
-      <mapping pattern="run-cypress" type="PLAIN_TEXT" />
-      <mapping pattern="run-e2e-test" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile_layer" type="PLAIN_TEXT" />
-      <mapping pattern="graphql" type="PLAIN_TEXT" />
-      <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
-      <mapping ext="artifact" type="PLAIN_TEXT" />
-      <mapping ext="mockmaker" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
-      <mapping ext="jks" type="PLAIN_TEXT" />
-      <mapping ext="cnf" type="PLAIN_TEXT" />
-      <mapping ext="plantuml" type="PlantUML file" />
-      <mapping pattern="release" type="Shell Script" />
-      <mapping pattern="push-git-tag" type="Shell Script" />
-      <mapping pattern="run" type="Shell Script" />
-      <mapping pattern=".pre-commit" type="Shell Script" />
-      <mapping pattern="deploy" type="Shell Script" />
-      <mapping pattern="enableAoP-in-staging" type="Shell Script" />
-      <mapping pattern="deploy-sqs" type="Shell Script" />
-      <mapping pattern="auto/test" type="Shell Script" />
-      <mapping pattern="dev" type="Shell Script" />
-      <mapping pattern="auto/run" type="Shell Script" />
-      <mapping pattern="test" type="Shell Script" />
-      <mapping pattern="deploy-route53" type="Shell Script" />
-      <mapping pattern="check" type="Shell Script" />
-      <mapping pattern="sign-locke-access-token" type="Shell Script" />
-      <mapping pattern="deploy-stack-in-pmtest" type="Shell Script" />
-      <mapping pattern="create-bolt-aop-permission-enabler-localstack" type="Shell Script" />
-      <mapping pattern="build-layer" type="Shell Script" />
-      <mapping pattern="set-env" type="Shell Script" />
-      <mapping pattern="disable-event-schedule" type="Shell Script" />
-      <mapping pattern="create-localstack" type="Shell Script" />
-      <mapping pattern="devtest" type="Shell Script" />
-      <mapping pattern="run-turnstile-test" type="Shell Script" />
-      <mapping pattern="create-params-file-in-pmtest" type="Shell Script" />
-      <mapping pattern="step-to-deploy-non-main-branch" type="Shell Script" />
-      <mapping pattern="clean" type="Shell Script" />
-      <mapping pattern="run-integration-test" type="Shell Script" />
-      <mapping pattern="build" type="Shell Script" />
-      <mapping pattern="enable-event-schedule" type="Shell Script" />
-      <mapping pattern="applicationPublishedNotificationHandler" type="TypeScript" />
-      <mapping ext="ts " type="TypeScript" />
-      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
-      <removed_mapping ext="graphqlconfig" approved="true" type="JSON" />
-      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
-      <removed_mapping pattern=".rvmrc" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="/create-localstack-sns23" approved="true" type="Shell Script" />
-      <removed_mapping pattern="00000000000000000000" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="DockerFile" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="JenkinsFile" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="abort" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="boot-cloudformation" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="boot-cloudformation.sh" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="checkpoint" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="command" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="create-localstack-sns" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="create-localstack-sns23" approved="true" type="Shell Script" />
-      <removed_mapping pattern="create-localstack-topic" approved="true" type="JSHELL" />
-      <removed_mapping pattern="deploy-instance-cloudformation" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="mysqldb-dockerfile" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="pre-command" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="pre-commond" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="seed" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="springbootdemo3-dockerfile" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="upload-pipeline" approved="true" type="PLAIN_TEXT" />
+      <mapping pattern=".env_sample" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
     </extensionMap>
   </component>
 </application>

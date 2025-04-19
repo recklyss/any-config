@@ -1,4 +1,11 @@
 <code_scheme name="Default" version="173">
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </value>
+  </option>
+  <option name="RIGHT_MARGIN" value="108" />
   <JSCodeStyleSettings version="0">
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
@@ -7,6 +14,9 @@
   <JetCodeStyleSettings>
     <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </JetCodeStyleSettings>
+  <Markdown>
+    <option name="WRAP_TEXT_IF_LONG" value="false" />
+  </Markdown>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="WRAP_ON_TYPING" value="0" />
     <option name="RIGHT_MARGIN" value="72" />
@@ -15,14 +25,22 @@
     <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
   </ScalaCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
+    <option name="SPACE_BEFORE_GENERATOR_MULT" value="true" />
+    <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACKETS" value="true" />
     <option name="PREFER_AS_TYPE_CAST" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
+    <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
   </TypeScriptCodeStyleSettings>
   <yaml>
     <option name="AUTOINSERT_SEQUENCE_MARKER" value="false" />
   </yaml>
+  <codeStyleSettings language="JAVA">
+    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
+    <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
+    <option name="WRAP_ON_TYPING" value="1" />
+  </codeStyleSettings>
   <codeStyleSettings language="JSON">
     <indentOptions>
       <option name="TAB_SIZE" value="2" />
@@ -54,6 +72,8 @@
     </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="Markdown">
+    <option name="RIGHT_MARGIN" value="180" />
+    <option name="WRAP_ON_TYPING" value="0" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />

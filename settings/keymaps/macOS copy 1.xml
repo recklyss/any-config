@@ -1,0 +1,74 @@
+<keymap version="1" name="macOS copy 1" parent="Mac OS X 10.5+">
+  <action id="AIAssistant.CodeGeneration.Actions.Specify" />
+  <action id="AIAssistant.Editor.GenerateCodeInplace" />
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
+  <action id="ActivateNotificationsToolWindow">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="ClearAllNotifications">
+    <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift alt x" />
+  </action>
+  <action id="CloseOtherProjects">
+    <keyboard-shortcut first-keystroke="ctrl meta w" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="meta alt comma" />
+  </action>
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="EditorDecreaseFontSizeGlobal" />
+  <action id="EditorIncreaseFontSizeGlobal" />
+  <action id="EditorResetFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+  </action>
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="FittenCode.manuallyTriggerCompletion">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="shift ctrl meta comma" />
+  </action>
+  <action id="Git.CreateNewBranch">
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="Jdbc.OpenConsole.New.Generate" />
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="Terminal.DeletePreviousWord" />
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="UsageGrouping.FileStructure" />
+  <action id="context.clear" />
+  <action id="tasks.goto" />
+</keymap>

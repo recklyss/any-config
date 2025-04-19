@@ -1,0 +1,54 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/workspace/personal/Barrier" value="true" />
+        <entry key="$USER_HOME$/workspace/personal/Barrier-Sidecar" value="true" />
+        <entry key="$USER_HOME$/workspace/personal/developer-joyofenergy-java" value="true" />
+        <entry key="$USER_HOME$/workspace/personal/frida" value="true" />
+        <entry key="$USER_HOME$/workspace/personal/markdown-timeline" value="true" />
+        <entry key="$USER_HOME$/workspace/personal/obsidian-releases" value="true" />
+        <entry key="$USER_HOME$/workspace/personal/our-office-webapp" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a1028-pnrgenerator" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a1028-pnrgenerator/pnrgenerator" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a1514-cc-enterprise-api" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a243-aem-widgets" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a243-flight-status-widget" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-boarding-pass" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-boarding-pass-lib" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-booking" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-carrier-connect-bff" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-carrier-connect-target" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-carrier-connect-ui" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-checkin-spring-boot-starter" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-ptfboardingpass" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-ptfecs" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-ptfica" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-ptfui" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-secure-gateway" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-test-util" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-ui-component-library" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a833-web-scanner" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a868-walletapi" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a974-flight-status-web-widget" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/a974-hotels-web-widget" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/checkin-logging-springboot-starter" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/checkin-logging-starter" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/flightStatus/a243-flight-status-widget" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/flightStatus/a974-flight-status-web-widget" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/flightStatus/a974-tax_invoice_widget" value="true" />
+        <entry key="$USER_HOME$/workspace/qantas/spring-boot-starter-checkin-observability" value="true" />
+        <entry key="/private/var/folders/hw/mrxphnns62b4k36kcnx8zy4r0000gn/T/hsperfdata_jiahengzhang" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/workspace/qantas" />
+        <option value="$USER_HOME$/workspace/personal" />
+      </list>
+    </option>
+  </component>
+</application>

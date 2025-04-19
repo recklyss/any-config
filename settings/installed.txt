@@ -1,9 +1,26 @@
+com.thvardhan.gradianto
+aws.toolkit.core
+PythonCore
+com.markskelton.one-dark-theme
+io.karatelabs.intellij
+VisualVMLauncher
 IdeaVIM
+com.arcticicestudio.nord.jetbrains
 Key Promoter X
-PlantUML integration
-com.dmarcotte.handlebars
-com.github.copilot
+Pythonid
+com.intellij.mermaid
+gherkin
+cucumber-java
+com.intellij.ml.llm
+com.intellij.nativeDebug
+com.github.bobi.aemgroovyconsoleplugin.aem-groovyconsole-plugin
 com.intellij.lang.jsgraphql
+com.dmarcotte.handlebars
+com.jetbrains.lang.ejs
+org.jetbrains.plugins.astro
+com.github.kawamataryo.copygithublink
 com.mallowigi
-fr.gabrielcolson.prisma.prisma-intellij-plugin
+mobi.hsz.idea.gitignore
+org.intellij.scala
 izhangzhihao.rainbow.brackets
+com.chrisrm.idea.MaterialThemeUI

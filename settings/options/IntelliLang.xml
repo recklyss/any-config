@@ -96,6 +96,14 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("parse", "get", "newBuilder").withParameters("java.lang.String").definedInClass("okhttp3.HttpUrl"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("url").withParameters("java.lang.String").definedInClass("okhttp3.Request.Builder"))]]></place>
     </injection>
+    <injection language="JSON5" injector-id="java">
+      <display-name>Query (org.springframework.data.mongodb.repository)</display-name>
+      <ignore-pattern>(:#\{#\w+\}|ObjectId\(.*\)|ISODate\(.*\)|new Date\(.*\))</ignore-pattern>
+      <single-file value="false" />
+      <place><![CDATA[psiMethod().withName("collation").withParameters().definedInClass("org.springframework.data.mongodb.repository.Query")]]></place>
+      <place><![CDATA[psiMethod().withName("fields").withParameters().definedInClass("org.springframework.data.mongodb.repository.Query")]]></place>
+      <place><![CDATA[psiMethod().withName("sort").withParameters().definedInClass("org.springframework.data.mongodb.repository.Query")]]></place>
+    </injection>
     <injection language="SQL" injector-id="java">
       <display-name>QueryProducer (org.hibernate.query)</display-name>
       <single-file value="true" />
@@ -174,6 +182,7 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.StatelessSession"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.Session"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.StatelessSession"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery", "createSelectionQuery", "createMutationQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>SmallRye Axle SqlClient (io.vertx.axle.sqlclient)</display-name>
@@ -191,6 +200,7 @@
       <display-name>SmallRye Mutiny SqlConnection (io.vertx.mutiny.sqlclient)</display-name>
       <single-file value="true" />
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepare", "prepareAndAwait").definedInClass("io.vertx.mutiny.db2client.DB2Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepare", "prepareAndAwait").definedInClass("io.vertx.mutiny.mssqlclient.MSSQLConnection"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepare", "prepareAndAwait").definedInClass("io.vertx.mutiny.mysqlclient.MySQLConnection"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepare", "prepareAndAwait").definedInClass("io.vertx.mutiny.pgclient.PgConnection"))]]></place>
     </injection>
@@ -292,6 +302,21 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query", "prepare", "preparedQuery", "preparedBatch", "rxQuery", "rxPreparedQuery", "rxPreparedBatch").definedInClass("io.vertx.reactivex.sqlclient.Pool"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query", "prepare", "preparedQuery", "preparedBatch", "rxQuery", "rxPreparedQuery", "rxPreparedBatch").definedInClass("io.vertx.reactivex.sqlclient.SqlClient"))]]></place>
     </injection>
+    <injection language="JSON" injector-id="java">
+      <display-name>WireMock (com.github.tomakehurst.wiremock.client)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("equalToJson").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("equalToJson").withParameters("java.lang.String", "boolean", "boolean").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("jsonResponse").withParameters("java.lang.String", "int").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okJson").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+    </injection>
+    <injection language="XML" injector-id="java">
+      <display-name>WireMock (com.github.tomakehurst.wiremock.client)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("equalToXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okTextXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+    </injection>
     <injection language="JSONPath" injector-id="java">
       <display-name>WriteContext (com.jayway.jsonpath)</display-name>
       <single-file value="true" />
@@ -344,6 +369,7 @@
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("json_table"))]]></place>
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, -1, 2, sqlFunctionCall().name("json_object"))]]></place>
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("json_object_agg"))]]></place>
+      <place><![CDATA[sqlExpression().forDialects("Oracle").functionArgument(0, -1, 1, sqlFunctionCall().name("json_object")).withNextMeaningfulSibling(leafTokens("format"), 0).withNextMeaningfulSibling(leafTokens("json"), 1)]]></place>
     </injection>
     <injection language="RegExp" injector-id="sql">
       <display-name>Oracle RegExp</display-name>

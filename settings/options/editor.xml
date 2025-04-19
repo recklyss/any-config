@@ -2,26 +2,38 @@
   <component name="CodeInsightSettings">
     <option name="completionCaseSensitive" value="2" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="ADD_IMPORTS_ON_PASTE" value="3" />
+  </component>
+  <component name="CodeVisionSettings">
+    <option name="defaultPosition" value="Right" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="AUTOREPARSE_DELAY" value="0" />
   </component>
-  <component name="EditorSettings">
-    <option name="languageBreadcrumbsMap">
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="enabledOptions">
       <map>
-        <entry key="JAVA" value="true" />
+        <entry key="ts.type.hints#function.returns" value="false" />
       </map>
     </option>
-    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
-    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc, *.sql" />
-    <option name="STRIP_TRAILING_SPACES" value="Whole" />
-    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
-    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
-    <option name="SHOW_BREADCRUMBS" value="false" />
-    <option name="SHOW_INTENTION_PREVIEW" value="true" />
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="java.method.chains" value="false" />
+      </map>
+    </option>
   </component>
-  <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  <component name="EditorSettings">
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="InlineCompletionOnboarding">
+    <option name="onboardingFinished" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="question" useCustomColors="true" pattern="\bmark\b.*">
+      <option name="FOREGROUND" value="ff9900" />
+      <option name="BACKGROUND" value="374f32" />
+      <option name="FONT_TYPE" value="3" />
+    </pattern>
   </component>
 </application>

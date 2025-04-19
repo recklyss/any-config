@@ -1,0 +1,6 @@
+<application>
+  <component name="ScalaSettings">
+    <option name="COMPILE_SERVER_SDK" value="zulu-1.8" />
+    <option name="COMPILE_SERVER_ID" value="e5c11f3f-efc5-4c15-9506-8c9a438ef395" />
+  </component>
+</application>

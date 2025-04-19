@@ -1,0 +1,33 @@
+<scheme name="_@user_Default" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2022-10-17T10:32:17</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2022.2.2.0.0</property>
+    <property name="modified">2022-10-19T21:30:55</property>
+    <property name="originalScheme">Default</property>
+  </metaInfo>
+  <attributes>
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="662f15" />
+        <option name="BACKGROUND" value="dbf3c2" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="e56000" />
+        <option name="ERROR_STRIPE_COLOR" value="d95716" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="99ccbb" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
